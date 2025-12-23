@@ -49,10 +49,7 @@ https://github.com/PaperMC/Folia/commit/eee7128bc810195ad758ea5ace1b72c600896d3b
 To enable NUMA scheduling, you must:
 
 ### 1) Use the `WORK_STEALING` scheduler
-In Folia global config, select the new scheduler (the default is EDF).
-
-> The option name can differ depending on the exact Folia build/config format,  
-> but you want the scheduler set to **WORK_STEALING**.
+In Paper global config, select the new scheduler (the default is EDF).
 
 ### 2) Add the JVM startup flag
 Add this JVM flag to your Pterodactyl **Startup Command / JVM arguments**:
